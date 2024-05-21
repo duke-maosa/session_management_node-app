@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configure session middleware
 app.use(session({
-  secret: 'your_secret_key', // Replace with a secure key
+  secret: 'Replace', // Replace with a secure key
   resave: false,
   saveUninitialized: true,
 }));
@@ -17,7 +17,7 @@ app.use(session({
 // Routes for authentication
 app.get('/login', (req, res) => {
   // Simulate user authentication (e.g., using username and password)
-  req.session.user = { id: 1, username: 'user123' };
+  req.session.user = { id: 1, username: 'youthe_User!' };
   res.send('Logged in successfully!');
 });
 

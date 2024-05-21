@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository demonstrates how to implement session-based authentication in a Node.js application using `express-session` middleware. Session management is fundamental for maintaining user sessions securely in web applications.
+This repository demonstrates how to implement session-based authentication in a Node.js application using the `express-session` middleware. Session management is fundamental for maintaining user sessions securely in web applications.
 
 ## Prerequisites
 
@@ -15,25 +15,24 @@ Before you begin, ensure you have the following installed:
 
 Follow these steps to set up the project:
 
-1. **Clone the Repository:**
+### 1. Clone the Repository
 
-   ```sh
-   git clone <https://github.com/duke-maosa/session_management_node-app.git>
-   cd <repository-directory>
-Install Dependencies:
+```sh
+git clone https://github.com/duke-maosa/session_management_node-app.git
+cd session_management_node-app
+2. Install Dependencies
 
-sh
-Copy code
+```sh
+
+
 npm install
-Create a .env File:
-
+3. Create a .env File
 Create a .env file in the root directory of the project with the following content:
 
 makefile
 Copy code
 PORT=3000
-Run the Application:
-
+4. Run the Application
 sh
 Copy code
 node index.js
@@ -70,4 +69,6 @@ Securely store session secrets to prevent session hijacking.
 Conclusion
 By following the steps outlined above, you have implemented session-based authentication in your Node.js application using express-session. You can now protect routes and manage user sessions effectively.
 
-For any issues or questions, please feel free to [open an issue](<https://github.com/duke-maosa/session_management_node-app.git>/issues).
+For any issues or questions, please feel free to open an issue.
+
+
