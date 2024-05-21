@@ -18,9 +18,8 @@ Follow these steps to set up the project:
 1. **Clone the Repository:**
 
    ```sh
-   git clone <repository-url>
+   git clone <https://github.com/duke-maosa/session_management_node-app.git>
    cd <repository-directory>
-
 Install Dependencies:
 
 sh
@@ -71,4 +70,4 @@ Securely store session secrets to prevent session hijacking.
 Conclusion
 By following the steps outlined above, you have implemented session-based authentication in your Node.js application using express-session. You can now protect routes and manage user sessions effectively.
 
-For any issues or questions, please feel free to 
+For any issues or questions, please feel free to [open an issue](<https://github.com/duke-maosa/session_management_node-app.git>/issues).
